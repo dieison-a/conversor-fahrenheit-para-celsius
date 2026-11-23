@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversão de Temperatura</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="card">
+      <h1>Conversão de Fahrenheit para Celsius</h1>
+
+      <form action="converteTemperatura.php" method="post">
+        <label for="fahrenheit">Temperatura em Fahrenheit:</label>
+        <input type="number" name="fahrenheit" id="fahrenheit" step="0.1" required />
+
+        <br /><br />
+
+        <input type="submit" value="Converter" />
+
+        <input type="reset" value="Limpar" />
+      </form>
+    </main>
+  </body>
+</html>
